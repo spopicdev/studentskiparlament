@@ -1,3 +1,58 @@
+
+
+.panel-body:not(.two-col) { padding:0px }
+.glyphicon { margin-right:5px; }
+.glyphicon-new-window { margin-left:5px; }
+.panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.panel-body .list-group {margin-bottom: 0;}
+.margin-bottom-none { margin-bottom: 0; }
+.panel-body .radio label,.panel-body .checkbox label { display:block; }
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color:#ad0606;
+    color: white;
+    border-color: #3c3c3c;
+    padding-left: 20px;
+    font-weight: 800;
+
+}
+
+
+
+.panel > .panel-body {
+    padding-left: 20px;
+}
+
+.panel {
+
+    border-color: #3c3c3c;
+
+
+    !important;
+
+}
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #373737;
+}
+.footer-txt{
+    float:left;
+    color:#e3e3e3;
+
+}
+
 .line-bgcolor {
     background-color:#ad0606;
     !important;
@@ -6,10 +61,65 @@
     padding-left: 14%;
     background-color:#ad0606;
     width:100%;
+    color:white;
+    font-size: large;
 !important;
 }
+
 .nav-zindex{
     z-index: -1;
+}
+
+.vest-custom{
+    padding: 5%;
+    border: 3px solid #3c3c3c;
+    margin-bottom: 10px;
+}
+
+.news-box{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 2%;
+    padding-bottom:2%;
+
+
+
+    border: 4px solid #a7a7a7;
+    !important;
+}
+.member-box{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    padding-top: 1%;
+    border: 5px solid grey;
+}
+
+.zuto{
+    background-color: yellow;
+}
+.plavo{
+    background-color: navy;
+}
+
+.member{
+    padding: 0.5%;
+    margin-bottom: 0.8%;
+
+
+}
+
+.member-image{
+    margin-right: 5%;
+}
+
+
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:#e3e3e3;
+    color: #000000;
+
 }
 
 .image-logo{
@@ -71,6 +181,8 @@ background-color: rgba(184, 192, 201, 0.35);
 
 }
 
+
+
 .navbar-default {
     background-color: #ca0000;
     border-color: #fbefef;
@@ -86,7 +198,7 @@ background-color: rgba(184, 192, 201, 0.35);
     color: #000000;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000000;
+    color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
