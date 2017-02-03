@@ -2,6 +2,15 @@
     background-color:#ad0606;
     !important;
 }
+.nav-bgcolor {
+    padding-left: 14%;
+    background-color:#ad0606;
+    width:100%;
+!important;
+}
+.nav-zindex{
+    z-index: -1;
+}
 
 .image-logo{
     width: 8%;
@@ -12,12 +21,12 @@
 
 .header-custom {
     width: 100%;
-    height: 10%;
+    height: 11%;
     float: left;
 }
 
 .header-text{
-    margin-top: 0.3%;
+    margin-top: 0.7%;
     margin-left: 23%;
     font-family: 'Crimson Text', serif;
     color: #4b4c4c;
