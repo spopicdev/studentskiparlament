@@ -1,28 +1,63 @@
-<html>
+<?php include('login_check.php'); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Admin login</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/admin.css" rel="stylesheet">
 </head>
 <body class="login-body">
-<div class="login-window">
-    <img src="img/logo.png" class="login-logo"> <br>
-    <form action="login.php" method="post">
-        <input type="text" name="username" placeholder="Unesite korisnicko ime" class="text-box"><br>
-        <input type="password" name="password" placeholder="Unesite lozinku" class="text-box"><br>
-        <input type="submit" name="sub" class="login-button" value="Posalji" ><br>
-        <input type="reset" name="del" class="login-button" value="Otkazi">
-    </form>
-</div>
-</body>
 
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="login.php">Admin | Studentski Parlament</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center"> Administrator <small>Studentskog parlamenta</small></h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="login-window">
+
+    <img src="img/logo.png" class="login-logo"> <br>
+        <form name="login" method="post" action="login_check.php" >
+            <input type="text" name="username" placeholder="Unesite korisnicko ime" class="text-box" ><br>
+            <input type="password" name="password" placeholder="Unesite lozinku" class="text-box" ><br>
+            <input type="submit" name="submit" class="btn btn-danger login-button" value="Posalji" ><br>
+            <input type="reset" name="reset" class="btn btn-secondary login-button" value="Otkazi">
+            <span> <?php
+
+
+                ?> </span>
+        </form>
+
+</div>
+
+<footer  class="bottom" id="footer" class="panel-footer">
+    <p>Copyright BINGBOT, &copy; 2017</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
 </html>
 
-<?php
-/**
- * Created by PhpStorm.
- * User: Stefan
- * Date: 02-Feb-17
- * Time: 23:53
- */

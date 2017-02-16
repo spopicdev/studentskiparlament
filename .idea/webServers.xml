@@ -2,12 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6ab6a377-e250-4c9f-adf4-ddd66bc0d3ea" name="localhost">
-        <fileTransfer host="" port="">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
+      <webServer id="09a6827a-f22e-49a6-8a58-1cc5e84d1e1b" name="parlament" url="http://localhost/studentskiparlament">
+        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
   </component>
